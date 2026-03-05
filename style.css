@@ -1,0 +1,16 @@
+/* Custom Bootstrap Variables and Styles */
+:root {
+  --bs-body-bg: #0a0a0f;
+  --bs-body-color: #ffffff;
+  --violet-primary: #8b5cf6;
+  --violet-secondary: #a855f7;
+  --violet-light: #c084fc;
+  --violet-lighter: #e9d5ff;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bs-body-bg);
+  color: var(--bs-body-color);
+  min-height: 100vh;
+}
